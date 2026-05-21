@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <!-- SEO META TAGS -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Hannahmani Portfolio</title>
+
+    <meta name="description"
+        content="Innovative colorful accessible portfolio website using HTML5 semantic structure and WCAG accessibility.">
+
+    <meta name="keywords"
+        content="Portfolio, HTML5, Accessibility, Web Development, DevOps, Student Portfolio">
+
+    <meta name="author" content="Hannahmani">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- ICONS -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+</head>
+
+<body>
+
+     <div class="profile">
+
+        <img
+            src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?q=80&w=500&auto=format&fit=crop"
+            alt="Professional profile picture">
+
+        <h2>Hannahmani</h2>
+
+        <p>CSE Student</p>
+
+    </div>
+    <!-- MAIN CONTENT -->
+    <div class="main-content">
+
+        <!-- HEADER -->
+        <header>
+
+            <h1>My Creative Portfolio</h1>
+
+            <!-- NAVIGATION -->
+            <nav aria-label="Main Navigation">
+
+                <ul>
+
+                    <li>
+                        <a href="#home">Home</a>
+                    </li>
+
+                    <li>
+                        <a href="#about">About</a>
+                    </li>
+
+                    <li>
+                        <a href="#projects">Projects</a>
+                    </li>
+
+                    <li>
+                        <a href="#contact">Contact</a>
+                    </li>
+
+                </ul>
+
+            </nav>
+
+        </header>
+
+        <!-- HOME SECTION -->
+        <main>
+
+            <section id="home" class="section colorful-section">
+
+                <div class="text-content">
+
+                    <h2>Welcome To My Portfolio</h2>
+
+                    <p>
+                        I am a passionate Computer Science Engineering student
+                        learning Web Development and DevOps technologies.
+                    </p>
+
+                    <button>
+                        Explore Projects
+                    </button>
+
+                </div>
+
+                <div class="image-content">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3"
+                        alt="Modern web development workspace">
+
+                </div>
+
+            </section>
+
+            <!-- ABOUT SECTION -->
+            <section id="about" class="section">
+
+                <div class="image-content">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f"
+                        alt="Students working together">
+
+                </div>
+
+                <div class="text-content">
+
+                    <h2>About This Project</h2>
+
+                    <p>
+                        This project is developed using semantic HTML5,
+                        CSS3 and JavaScript following WCAG accessibility
+                        guidelines and SEO optimization standards.
+                    </p>
+
+                    <ul>
+
+                        <li>Semantic HTML5 Structure</li>
+
+                        <li>Accessible Navigation</li>
+
+                        <li>Responsive Design</li>
+
+                        <li>Keyboard Friendly</li>
+
+                        <li>SEO Optimized</li>
+
+                    </ul>
+
+                </div>
+
+            </section>
+
+            <!-- PROJECTS SECTION -->
+            <section id="projects" class="section colorful-section">
+
+                <h2 class="center">Projects</h2>
+
+                <div class="project-container">
+
+                    <article class="project-card">
+
+                        <img
+                            src="https://images.unsplash.com/photo-1518770660439-4636190af475"
+                            alt="Portfolio project image">
+
+                        <h3>Portfolio Website</h3>
+
+                        <p>
+                            Fully responsive and accessible personal portfolio.
+                        </p>
+
+                    </article>
+
+                    <article class="project-card">
+
+                        <img
+                            src="https://images.unsplash.com/photo-1555949963-aa79dcee981c"
+                            alt="Coding project">
+
+                        <h3>DevOps Learning</h3>
+
+                        <p>
+                            Learning CI/CD pipelines and cloud deployment.
+                        </p>
+
+                    </article>
+
+                    <article class="project-card">
+
+                        <img
+                            src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97"
+                            alt="Web development">
+
+                        <h3>Web Development</h3>
+
+                        <p>
+                            Building real-world frontend projects using HTML,
+                            CSS and JavaScript.
+                        </p>
+
+                    </article>
+
+                </div>
+
+            </section>
+
+            <!-- CONTACT SECTION -->
+            <section id="contact" class="section">
+
+                <div class="image-content">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1521791136064-7986c2920216"
+                        alt="Contact support image">
+
+                </div>
+
+                <div class="text-content">
+
+                    <h2>Contact Me</h2>
+
+                    <!-- FORM -->
+                    <form id="contactForm">
+
+                        <label for="name">Full Name</label>
+
+                        <input
+                            type="text"
+                            id="name"
+                            placeholder="Enter your name"
+                            required>
+
+                        <label for="email">Email</label>
+
+                        <input
+                            type="email"
+                            id="email"
+                            placeholder="Enter your email"
+                            required>
+
+                        <label for="message">Message</label>
+
+                        <textarea
+                            id="message"
+                            rows="5"
+                            placeholder="Type your message"
+                            required></textarea>
+
+                        <button type="submit">
+                            Send Message
+                        </button>
+
+                    </form>
+
+                </div>
+
+            </section>
+
+        </main>
+
+        <!-- FOOTER -->
+        <footer>
+
+            <p>
+                © 2026 Hannahmani Portfolio | Designed with HTML5 & Accessibility
+            </p>
+
+        </footer>
+
+    </div>
+
+    <!-- SCRIPT -->
+    <script src="script.js"></script>
+
+</body>
+
+</html>
